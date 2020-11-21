@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="440.0" prefWidth="588.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SimpleDatabase.helpController">
+   <children>
+      <Pane layoutX="5.0" prefHeight="433.0" prefWidth="578.0">
+         <children>
+            <Label layoutX="262.0" layoutY="14.0" prefHeight="29.0" prefWidth="66.0" text="HELP">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btCancel" layoutX="472.0" layoutY="390.0" mnemonicParsing="false" onAction="#close" prefHeight="29.0" prefWidth="82.0" text="Close" />
+            <TextArea layoutX="31.0" layoutY="50.0" prefHeight="328.0" prefWidth="527.0" text="1. 본 프로그램은 문자열, 문자, 정수와 실수를 저장할 수 있는 데이터 베이스 입니다.&#10;2. 상단의 메뉴와 하단의 버튼으로 동작할 기능을 선택할 수 있습니다.&#10;3. 우측 하단은 현재 필드의 최대 수와 현재 필드의 갯수를 나타내며 특정 안내 사항을 나타냅니다.&#10;4. 데이터 입력 시 필드 타입과 데이터 길이는 생략할 수 있으며 이때는 기본 값인 &#10;    필드타입 : String과 필드길이 : 24로 선택이 됩니다.&#10;5. 데이터 삭제 및 수정 시 필드를 선택하고 check 버튼을 눌러서 필드의 정보를 가져온 뒤 &#10;    사용해야 합니다.&#10;6. 데이터를 찾으려면 찾고자 하는 데이터 값을 입력한 뒤 search를 선택합니다.&#10;7. 데이터베이스에 데이터를 저장/삭제/수정 한 뒤 상단의 table - update 버튼을 누를 시&#10;    테이블이 갱신됩니다.&#10;" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
